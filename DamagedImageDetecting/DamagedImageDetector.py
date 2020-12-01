@@ -63,7 +63,7 @@ class CheckBrockImage(object):
 
 if __name__ == '__main__':
     # landmark 的資料夾路徑
-    dir = '../莫高窟'
+    dir = '../train/白馬塔'
 
     print('正在檢測' + dir + ':')
     imgs = CheckBrockImage(dir + "/")
